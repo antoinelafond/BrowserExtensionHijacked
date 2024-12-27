@@ -67,6 +67,8 @@ extension Incident .
 - HTTP POST requests for data exfiltration
 - ChatGPT API connectivity check
 
+### Vulnu Communication : https://www.vulnu.com/p/breaking-cyberhaven-chrome-extension-compromised
+
 ## Accounts to Follow : 
 - Jaime Blasco : x.com/jaimeblascob/status/1872447430362611810
 - Andre Gironda (1) : x.com/AndreGironda/status/1872463896742871095
