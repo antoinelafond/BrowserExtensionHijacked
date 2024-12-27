@@ -1,6 +1,6 @@
 rule Extension_Stealer_Detection {
     meta:
-        description = "Detects malicious JavaScript files related to Chrome(ium) extension compromission"
+        description = "Detects malicious JavaScript files related to Chrome(ium) extension compromise"
         author = "kondah hamza"
         date = "2024-12-27"
         malware_type = "Chrome Extension Stealer"
