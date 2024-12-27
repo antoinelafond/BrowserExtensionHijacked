@@ -77,7 +77,7 @@ rule Extension_Stealer_Detection {
         // Specific hashes from known malicious scripts
         $hash1 = { 91 ff 6f 07 b3 f2 34 7d a0 0b 5e c9 90 7d 0b 77 53 cc a9 c4 42 cc 9c 06 92 c1 c6 ab a1 b9 03 18 }
         $hash2 = { a8 d3 02 7b e4 8f 61 ae 61 74 d0 67 e5 9e 89 b7 ec 47 ae 19 42 04 70 24 87 33 d8 c4 b7 5f da 52 }
-        $hash3 = { 8a e8 2b cb 5a 47 4e f8 13 d1 e2 a0 44 ba 73 cb 62 aa c5 5a 24 5d f4 ea a3 0c c3 e0 45 1a 4d 3 }
+        $hash3 = { 8a e8 2b cb 5a 47 4e f8 13 d1 e2 a0 44 ba 73 cb 62 aa c5 5a 24 5d f4 ea a3 0c c3 e0 45 1a 4d 3? }
         $hash4 = { 28 da e3 b4 bb 89 a0 34 f5 4d 86 c5 2d ea 0f 58 cf 7e 24 f5 e7 50 4f 3c c5 56 9b ac 1e 18 9b ed }
         $hash5 = { 7f b4 3d c4 56 64 10 2d 3d 66 97 04 80 83 2a 64 95 74 b7 e9 25 eb 46 9c 7f 33 57 be 6a 34 e1 ce }
         $hash6 = { f7 92 12 c1 cc 94 52 bb 5d ee 89 93 7e 17 36 e0 5e 25 fe 77 a1 e2 58 1a 18 42 1d c6 58 2f f0 ce }
