@@ -1,4 +1,4 @@
-# BrowserExtensionHijacked
+# Chrome extensions Trojanized 
 ## Overview
 This repository provides a comprehensive collection of detection rules and threat intelligence focused on malicious Chrome extensions related to December Trojanized Chrome
 extension Incident .
