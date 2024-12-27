@@ -1,7 +1,6 @@
 # Chrome Extension Supply Chain Attack
 ## Overview
-This repository provides a comprehensive collection of detection rules and threat intelligence focused on malicious Chrome extensions related to December Trojanized Chrome
-extension Incident.
+This repository provides a comprehensive collection of detection rules and threat intelligence focused on malicious Chrome extensions supply chain attack incident that occurs between 24-26 December.
 
 ### Refs : 
 - https://www.vulnu.com/p/breaking-cyberhaven-chrome-extension-compromised
