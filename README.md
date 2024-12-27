@@ -4,7 +4,7 @@ This repository provides a comprehensive collection of detection rules and threa
 extension Incident .
 ###refs : 
 - https://www.vulnu.com/p/breaking-cyberhaven-chrome-extension-compromised
-- secureannex.com/blog/cyberhaven-extension-compromise/
+- https://secureannex.com/blog/cyberhaven-extension-compromise/
 
 ## Purpose of the repo 
 - Provide detection rules (YARA and Sigma)
