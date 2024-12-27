@@ -1,0 +1,69 @@
+title: Malicious Chrome Extension Activity Detection
+status: experimental
+description: Detects malicious Chrome extension activity 
+references:
+    - https://secureannex.com/blog/cyberhaven-extension-compromise/
+    - x.com/jaimeblascob/status/1872447430362611810
+date: 2024/12/27
+author: Kondah Hamza
+tags:
+    - attack.t1176
+    - attack.t1539
+    - attack.persistence
+    - attack.credential_access
+logsource:
+    category: proxy
+    product: any
+detection:
+    selection_domains:
+        destination.domain:
+            - 'cyberhavenext.pro'
+            - 'bookmarkfc.info'
+            - 'castorus.info'
+            - 'censortracker.pro'
+            - 'dearflip.pro'
+            - 'internxtvpn.pro'
+            - 'iobit.pro'
+            - 'locallyext.ink'
+            - 'moonsift.store'
+            - 'parrottalks.info'
+            - 'pieadblock.pro'
+            - 'primusext.pro'
+            - 'readermodeext.info'
+        network.protocol: 'http*'
+        event.category: 'network'
+        event.type: 'connection'
+        
+    selection_ips:
+        destination.ip:
+            - '149.28.124.84'
+            - '45.76.225.148'
+        network.protocol: 'http*'
+        event.category: 'network'
+        event.type: 'connection'
+
+    selection_user_agent:
+        user_agent.original|contains:
+            - 'Chrome'
+            - 'Chromium'
+
+    condition: (selection_domains or selection_ips) and selection_user_agent
+
+falsepositives:
+    - Legitimate access to these domains through Chrome browser
+    - VPN services using similar infrastructure
+level: high
+
+fields:
+    - destination.domain
+    - destination.ip
+    - network.protocol
+    - event.category 
+    - event.type
+    - user_agent.original
+    - source.ip
+    - source.port
+    - destination.port
+    - network.bytes
+    - http.request.method
+
