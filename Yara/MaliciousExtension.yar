@@ -3,10 +3,33 @@ rule Extension_Stealer_Detection {
         description = "Detects malicious JavaScript files related to Chrome(ium) extension compromission"
         author = "kondah hamza"
         date = "2024-12-27"
+        malware_type = "Chrome Extension Stealer"
+        platform = "Chrome/Chromium"
         threat_type = "info-stealer"
         severity = "high"
+        mitre_att = "T1176,T1539"
 
     strings:
+        // Extension specific patterns
+        $ext1 = "manifest.json" ascii wide
+        $ext2 = "content.js" ascii wide
+        $ext3 = "worker.js" ascii wide
+        $ext4 = "background.js" ascii wide
+        $ext5 = "chrome-extension://" ascii wide
+        $ext6 = "chrome.runtime" ascii wide
+        $ext7 = "extensions/" ascii wide
+        $ext8 = "chrome.webRequest" ascii wide
+
+        // Cookie related patterns
+        $cookie1 = "document.cookie" ascii wide
+        $cookie2 = "chrome.cookies" ascii wide
+        $cookie3 = "chrome.cookies.getAll" ascii wide
+        $cookie4 = "cookie.domain" ascii wide
+        $cookie5 = "cookie.value" ascii wide
+        $cookie6 = "cookie.path" ascii wide
+        $cookie7 = ".cookie" ascii wide
+        $cookie8 = "cookie=" ascii wide
+        
         // Obfuscation patterns
         $obf1 = "eval(" ascii wide
         $obf2 = "unescape(" ascii wide
@@ -27,7 +50,7 @@ rule Extension_Stealer_Detection {
         $susp7 = "localStorage.setItem(" ascii wide
         $susp8 = "sessionStorage.setItem(" ascii wide
 
-        // Known malicious domains (examples)
+        // Known malicious domains
         $domain1 = "cyberhavenext.pro" nocase ascii wide
         $domain2 = "linewizeconnect.com" nocase ascii wide
         $domain3 = "moonsift.store" nocase ascii wide
@@ -64,13 +87,14 @@ rule Extension_Stealer_Detection {
         (
             // Match known malicious hashes
             any of ($hash*) or
-
+            // Detect extension specific patterns with cookies or exfiltration
+            (2 of ($ext*) and (any of ($cookie*) or any of ($exfil*))) or
             // Detect obfuscation techniques
             (2 of ($obf*)) or
-
             // Detect suspicious function usage with known malicious domains
             (1 of ($susp*) and 1 of ($domain*)) or
-
+            // Detect cookie stealing with malicious domains
+            (1 of ($cookie*) and 1 of ($domain*)) or
             // Detect exfiltration patterns
             (1 of ($exfil*) and 1 of ($domain*))
         )
