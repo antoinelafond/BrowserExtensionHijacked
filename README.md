@@ -3,7 +3,7 @@
 This repository provides a comprehensive collection of detection rules and threat intelligence focused on malicious Chrome extensions related to December Trojanized Chrome
 extension Incident.
 
-### refs : 
+### Refs : 
 - https://www.vulnu.com/p/breaking-cyberhaven-chrome-extension-compromised
 - https://secureannex.com/blog/cyberhaven-extension-compromise/
 
