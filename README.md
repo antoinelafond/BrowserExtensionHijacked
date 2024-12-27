@@ -57,14 +57,19 @@ extension Incident .
 
 ### Malicious Files
 
-content.js
-worker.js
-manifest.json
+- content.js
+- worker.js
+- manifest.json
 
 ### Network Indicators
 
-Dead drop resolver pattern: /6kU.*?"/gm
-Local storage key: cyberhavenext_ext_manage
-HTTP POST requests for data exfiltration
-ChatGPT API connectivity check
+- Dead drop resolver pattern: /6kU.*?"/gm
+- HTTP POST requests for data exfiltration
+- ChatGPT API connectivity check
 
+## Accounts to Follow : 
+- Jaime Blasco : x.com/jaimeblascob/status/1872447430362611810
+- Andre Gironda (1) : x.com/AndreGironda/status/1872463896742871095
+- Andre Gironda (2) : x.com/AndreGironda/status/1872463919668969788
+- Tuckner (1) : x.com/tuckner/status/1872516426038419631
+- Tuckner (2) : x.com/tuckner/status/1872516616241758236
