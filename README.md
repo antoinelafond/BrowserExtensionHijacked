@@ -38,12 +38,12 @@ extension Incident .
 
 ### File Hashes (SHA256)
 
-91ff6f07b3f2347da00b5ec9907d0b7753cca9c442cc9c0692c1c6aba1b90318 (worker.js from cyberhavenext.pro)
-a8d3027be48f61ae6174d067e59e89b7ec47ae19420470248733d8c4b75fda52 (content.js from cyberhavenext.pro)
-8ae82bcb5a474ef813d1e2a044ba73cb62aac55a245dfb4eaa30cc3e0451a4d3 (worker.js from readermodeext.info)
-28dae3b4bb89a034f54d86c52dea0f58cf7e24f5e7504f3cc5569bac1e189bed (content.js from readermodeext.info)
-7fb43dc45664102d3d66970480832a649574b7e925eb469c7f3357be6a34e1ce (worker.js from vpncity.live)
-f79212c1cc9452bb5dee89937e1736e05e25fe77a1e2581a18421dc6582ff0ce (content.js from vpncity.live)
+- 91ff6f07b3f2347da00b5ec9907d0b7753cca9c442cc9c0692c1c6aba1b90318 (worker.js from cyberhavenext.pro)
+- a8d3027be48f61ae6174d067e59e89b7ec47ae19420470248733d8c4b75fda52 (content.js from cyberhavenext.pro)
+- 8ae82bcb5a474ef813d1e2a044ba73cb62aac55a245dfb4eaa30cc3e0451a4d3 (worker.js from readermodeext.info)
+- 28dae3b4bb89a034f54d86c52dea0f58cf7e24f5e7504f3cc5569bac1e189bed (content.js from readermodeext.info)
+- 7fb43dc45664102d3d66970480832a649574b7e925eb469c7f3357be6a34e1ce (worker.js from vpncity.live)
+- f79212c1cc9452bb5dee89937e1736e05e25fe77a1e2581a18421dc6582ff0ce (content.js from vpncity.live)
 
 ### Infrastructure Characteristics
 
