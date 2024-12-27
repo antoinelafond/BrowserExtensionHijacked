@@ -47,13 +47,13 @@ extension Incident .
 
 ### Infrastructure Characteristics
 
-Registration Provider: Namecheap
-Hosting Provider: Vultr
-ASN: 20473
-Web Server: Nginx
-SSL Certificate: Let's Encrypt
-Framework: Laravel PHP
-HTTP Response: 200
+- Registration Provider: Namecheap
+- Hosting Provider: Vultr
+- ASN: 20473
+- Web Server: Nginx
+- SSL Certificate: Let's Encrypt
+- Framework: Laravel PHP
+- HTTP Response: 200
 
 ### Malicious Files
 
