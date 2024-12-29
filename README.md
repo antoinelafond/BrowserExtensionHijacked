@@ -75,6 +75,116 @@ This repository provides a comprehensive collection of detection rules and threa
 - HTTP POST requests for data exfiltration
 - ChatGPT API connectivity check
 
+
+
+### List of related compromised extensions (Source : Cyberheaven blogpost -> https://secureannex.com/blog/cyberhaven-extension-compromise/)
+
+VPNCity
+2.0.1
+10,000 users
+Updated December 12, 2024
+Confirmed
+
+Parrot Talks
+1.16.2
+40,000 users
+Updated December 25, 2024
+Confirmed
+
+Uvoice
+1.0.12
+40,000 users
+Updated December 26, 2024
+Confirmed
+
+Internxt VPN - Free, Encrypted & Unlimited VPN
+1.1.1
+10,000 users
+Updated December 25, 2024
+Confirmed and patched at 1.1.2
+
+Bookmark Favicon Changer
+4.00
+40,000 users
+Updated December 25, 2024
+Confirmed
+
+Castorus
+4.40
+50,000 users
+Updated December 26, 2024
+Confirmed & patched at 4.4.1
+
+Wayin AI
+0.0.11
+40,000 users
+Updated December 19, 2024
+Confirmed
+
+Search Copilot AI Assistant for Chrome
+1.0.1
+20,000 users
+Updated July 17, 2024
+Confirmed
+
+VidHelper - Video Downloader
+2.2.7
+20,000 users
+Updated December 26, 2024
+
+AI Assistant - ChatGPT and Gemini for Chrome
+0.1.3
+4,000 users
+Updated May 31, 2024
+Confirmed and removed from the Chrome web store October 25th, 2024
+
+Vidnoz Flex - Video recorder & Video share
+1.0.161
+6,000 users
+Updated December 25, 2024
+Confirmed
+
+TinaMind - The GPT-4o-powered AI Assistant!
+2.13.0
+40,000 users
+Updated December 15, 2024
+Confirmed & patched at 2.13.1 December 20th, 2024, now 2.14.0 December 21st, 2024
+
+Bard AI chat
+1.3.7
+100,000 users
+Updated September 5, 2024
+Confirmed removed from the Chrome web store October 22, 2024
+
+Reader Mode
+1.5.7
+300,000 users
+Updated December 18, 2024
+Confirmed & patched at 1.5.8 December 18th, 2024, removed from the Chrome web store December 19th, 2024
+
+Primus (prev. PADO)
+3.18.0
+40,000 users
+Updated December 18, 2024
+Confirmed & patched at 3.20.0 December 25th, 2024
+
+Tackker - online keylogger tool 1.3.0
+10,000 users
+Updated December 25, 2024
+Confirmed. Version 1.3 released October 6, 2023, patched at 1.4 August 13, 2024
+
+AI Shop Buddy 2.7.5
+4,000 users
+Updated April 30, 2024
+Confirmed. Version 2.7.3. Updated version 2.7.5 still contains compromised code.
+
+Sort by Oldest 1.4.5
+2,000 users
+Updated January 11, 2024
+Confirmed
+
+Rewards Search Automator
+
 ### Vulnu Communication : https://www.vulnu.com/p/breaking-cyberhaven-chrome-extension-compromised
 
 ## Accounts to Follow : 
