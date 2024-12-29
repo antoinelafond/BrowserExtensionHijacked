@@ -34,11 +34,15 @@ This repository provides a comprehensive collection of detection rules and threa
 - internxtvpn[.]pro
 - uvoice[.]live
 - castorus[.]info
+- sclpfybn[.]com
 
 ### IP Addresses
 
 - 149.28.124[.]84
 - 45.76.225[.]148
+- 148[.]72[.]164[.]10
+- 148[.]72[.]164[.]11
+- 148[.]72[.]173[.]24
 
 ### File Hashes (SHA256)
 
