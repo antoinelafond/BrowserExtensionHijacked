@@ -98,5 +98,6 @@ BrowserExtensionId="cplhlgabfijoiabgkigdafklbhhdkahj"
 *
 | Compromised := "false";
 }
+| Compromised = "true"
 | groupBy([BrowserExtensionId], function=collect(fields=[aid, BrowserExtensionName, Compromised]))
 ```
