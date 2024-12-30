@@ -29,6 +29,7 @@ $extensionsToRemove = @{
         "hodiladlefdpcbemnbbcpclbmknkiaem" = "3.1.3"  # Visual Effects for Google Meet  
         "pajkjnmeojmbapicmbpliphjmcekeaac" = "24.10.4"# Cyberhaven security extension V3
         "ndlbedplllcgconngcnfmkadhokfaaln" = "2.22.6" # GraphQL Network Inspector
+        "epdjhgbipjpbbhoccdeipghoihibnfja" = "1.4"    # GPT 4 Summary with OpenAI
       
     }
 
