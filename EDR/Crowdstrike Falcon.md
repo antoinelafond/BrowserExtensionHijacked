@@ -95,6 +95,12 @@ BrowserExtensionId="epdjhgbipjpbbhoccdeipghoihibnfja"
 BrowserExtensionId="cplhlgabfijoiabgkigdafklbhhdkahj"
 | BrowserExtensionVersion=1.0.161
 | Compromised := "true";
+BrowserExtensionId="jiofmdifioeejeilfkpegipdjiopiekl"
+| BrowserExtensionVersion=1.1.61
+| Compromised := "true";
+BrowserExtensionId="hihblcmlaaademjlakdpicchbjnnnkbo"
+| BrowserExtensionVersion=3.0.2
+| Compromised := "true";
 *
 | Compromised := "false";
 }
