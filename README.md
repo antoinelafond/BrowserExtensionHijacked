@@ -63,6 +63,11 @@ This repository provides a comprehensive collection of detection rules and threa
 - Framework: Laravel PHP
 - HTTP Response: 200
 
+### Tracking Compromised extensions : 
+
+- Here is also a list for tracking compromised extensions by @tuckner :
+https://docs.google.com/spreadsheets/d/15xOLbYgz5DQnCWYE6a_LXGcqYC_bNPPzdBqdLofz6-E/edit?pli=1&gid=0#gid=0
+
 ### Malicious Files
 
 - content.js
