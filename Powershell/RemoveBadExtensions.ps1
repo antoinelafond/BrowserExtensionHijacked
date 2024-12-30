@@ -29,7 +29,7 @@ foreach ($extensionId in $extensionsToRemove.Keys) {
     $extensionPath = Join-Path -Path $chromeExtensionsPath -ChildPath $extensionId
     if (Test-Path $extensionPath) {
         # Check for the version
-        $manifestPath = Join-Path -Path $extensionPath -ChildPath "manifest.json"
+        $manifestPath = Join-Path -Path $extensionPath -ChildPath "$($extensionsToRemove[$extensionId])_0/manifest.json"
         if (Test-Path $manifestPath) {
             $manifest = Get-Content -Path $manifestPath -Raw | ConvertFrom-Json
             if ($manifest.version -eq $extensionsToRemove[$extensionId]) {
