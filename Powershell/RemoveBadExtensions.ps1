@@ -30,6 +30,7 @@ $extensionsToRemove = @{
         "pajkjnmeojmbapicmbpliphjmcekeaac" = "24.10.4"# Cyberhaven security extension V3
         "ndlbedplllcgconngcnfmkadhokfaaln" = "2.22.6" # GraphQL Network Inspector
         "epdjhgbipjpbbhoccdeipghoihibnfja" = "1.4"    # GPT 4 Summary with OpenAI
+        "jiofmdifioeejeilfkpegipdjiopiekl" = "1.1.61" # YesCaptcha assistant
       
     }
 
