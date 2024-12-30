@@ -1,0 +1,40 @@
+title: Detection of Malicious Chrome Extensions
+id: malicious-chrome-extensions-ids
+status: experimental
+description: Detects known malicious Chrome extensions based on unique identifiers and file creation events.
+author: kondah hamza
+date: 2024-12-27
+logsource:
+  category: file_event
+  product: windows
+detection:
+  selection:
+    ActionType: "FileCreated"
+    FileName|endswith: ".crx"
+  filter_extension_ids:
+    FileName|contains:
+      - "bibjgkidgpfbblifamdlkldhlgmfohh"
+      - "pkgciiiancapdlpcbpfkmeaieppikkk"
+      - "epdjhgbjpbboocdeigphoihbnbjfa"
+      - "bbdnhpkbkdknmkdobeafbooojnpla"
+      - "befflofjcniongenjmbkgkoljhgliihe"
+      - "cedgndijpacnfbdggppddacngjfdkaca"
+      - "nnpnnpemnckcfdebeekibpiijlicmpom"
+      - "dpggmcodlahmljkhlmpgpdcffdaoccni"
+      - "cplhlgabfijoiabgkigdafklbhhdkahj"
+      - "egmennebgadmncfjafcemlecimkepcle"
+      - "acmfnomgphggonodopogfbmkneepfgnh"
+      - "mnhffkhmpnefgklngfmlndmkimimbphc"
+      - "oaikpkmjciadfpddlpjjdapglcihgdle"
+      - "fblmchbdmlilaggedifpjihgkkmdgeljh"
+      - "kkodiihpgodmdankclfibbiphjkfdenh"
+      - "oeiomhmbaapihbilkfkhmlajkeegnjhe"
+  condition: selection and filter_extension_ids
+fields:
+  - FileName
+  - ActionType
+  - FilePath
+  - User
+falsepositives:
+  - Legitimate extensions or developers using similar identifiers (manual review recommended)
+level: high
