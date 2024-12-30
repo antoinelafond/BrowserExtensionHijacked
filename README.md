@@ -79,20 +79,20 @@ This repository provides a comprehensive collection of detection rules and threa
 
 The following Chrome extension IDs have been identified as malicious and are targeted for detection in the Sigma rule:
 
-ifjfomailadbmnbdgelhglajckbkfbjj
-dpggmcodlahmljkhlmpgpdcffdaoccni
-nnpnnpemnckcfdebeekibpiijlicmpom
-kkodiihpgodmdankclfibbiphjkfdenh
-oaikpkmjciadfpddlpjjdapglcihgdle
-acmfnomgphggonodopogfbmkneepfgnh
-mnhffkhmpnefgklngfmlndmkimimbphc
-befflofjcniongenjmbkgkoljhgliihe
-cedgndijpacnfbdggppddacngjfdkaca
-egmennebgadmncfjafcemlecimkepcle
-cplhlgabfijoiabgkigdafklbhhdkahj
-gadbpecoinogdkljjbjffmiijpebooce
-oeiomhmbaapihbilkfkhmlajkeegnjhe
-epikoohpebngmakjinphfiagogjcnddm
+- ifjfomailadbmnbdgelhglajckbkfbjj
+- dpggmcodlahmljkhlmpgpdcffdaoccni
+- nnpnnpemnckcfdebeekibpiijlicmpom
+- kkodiihpgodmdankclfibbiphjkfdenh
+- oaikpkmjciadfpddlpjjdapglcihgdle
+- acmfnomgphggonodopogfbmkneepfgnh
+- mnhffkhmpnefgklngfmlndmkimimbphc
+- befflofjcniongenjmbkgkoljhgliihe
+- cedgndijpacnfbdggppddacngjfdkaca
+- egmennebgadmncfjafcemlecimkepcle
+- cplhlgabfijoiabgkigdafklbhhdkahj
+- gadbpecoinogdkljjbjffmiijpebooce
+- oeiomhmbaapihbilkfkhmlajkeegnjhe
+- epikoohpebngmakjinphfiagogjcnddm
 
 
 
