@@ -11,9 +11,14 @@ $extensionsToRemove = @(
     "mnhffkhmpnefgklngfmlndmkimimbphc",
     "befflofjcniongenjmbkgkoljhgliihe",
     "cedgndijpacnfbdggppddacngjfdkaca",
+    "nnpnnpemnckcfdebeekibpiijlicmpom",
+    "dpggmcodlahmljkhlmpgpdcffdaoccni",
     "egmennebgadmncfjafcemlecimkepcle",
+    "acmfnomgphggonodopogfbmkneepfgnh",
     "cplhlgabfijoiabgkigdafklbhhdkahj",
     "gadbpecoinogdkljjbjffmiijpebooce",
+    "oaikpkmjciadfpddlpjjdapglcihgdle",
+    "kkodiihpgodmdankclfibbiphjkfdenh",
     "oeiomhmbaapihbilkfkhmlajkeegnjhe"
 )
 # Remove the extensions
