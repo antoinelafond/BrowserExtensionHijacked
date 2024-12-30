@@ -27,7 +27,8 @@ $extensionsToRemove = @{
         "igbodamhgjohafcenbcljfegbipdfjpk" = "2.3"    # Keyboard History Recorder
         "mbindhfolmpijhodmgkloeeppmkhpmhc" = "1.44"   # Email Hunter 
         "hodiladlefdpcbemnbbcpclbmknkiaem" = "3.1.3"  # Visual Effects for Google Meet  
-        "pajkjnmeojmbapicmbpliphjmcekeaac" = "24.10.4"# Cyberhaven security extension V3    
+        "pajkjnmeojmbapicmbpliphjmcekeaac" = "24.10.4"# Cyberhaven security extension V3
+        "ndlbedplllcgconngcnfmkadhokfaaln" = "2.22.6" # GraphQL Network Inspector
       
     }
 
