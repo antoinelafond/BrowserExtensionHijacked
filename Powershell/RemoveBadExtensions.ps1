@@ -31,7 +31,7 @@ $extensionsToRemove = @{
         "ndlbedplllcgconngcnfmkadhokfaaln" = "2.22.6" # GraphQL Network Inspector
         "epdjhgbipjpbbhoccdeipghoihibnfja" = "1.4"    # GPT 4 Summary with OpenAI
         "jiofmdifioeejeilfkpegipdjiopiekl" = "1.1.61" # YesCaptcha assistant
-      
+        "hihblcmlaaademjlakdpicchbjnnnkbo" = "3.0.2"  # Proxy SwitchyOmega (V3)
     }
 
     # Remove the extensions if the version matches
