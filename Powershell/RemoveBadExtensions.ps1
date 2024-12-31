@@ -32,6 +32,7 @@ $extensionsToRemove = @{
         "epdjhgbipjpbbhoccdeipghoihibnfja" = "1.4"    # GPT 4 Summary with OpenAI
         "jiofmdifioeejeilfkpegipdjiopiekl" = "1.1.61" # YesCaptcha assistant
         "hihblcmlaaademjlakdpicchbjnnnkbo" = "3.0.2"  # Proxy SwitchyOmega (V3)
+        "lbneaaedflankmgmfbmaplggbmjjmbae" = "1.3.8"  # ChatGPT App
     }
 
     # Remove the extensions if the version matches
