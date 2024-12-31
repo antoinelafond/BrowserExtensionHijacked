@@ -33,6 +33,9 @@ $extensionsToRemove = @{
         "jiofmdifioeejeilfkpegipdjiopiekl" = "1.1.61" # YesCaptcha assistant
         "hihblcmlaaademjlakdpicchbjnnnkbo" = "3.0.2"  # Proxy SwitchyOmega (V3)
         "lbneaaedflankmgmfbmaplggbmjjmbae" = "1.3.8"  # ChatGPT App
+        "eaijffijbobmnonfhilihbejadplhddo" = "2.4"    # Web Mirror
+        "hmiaoahjllhfgebflooeeefeiafpkfde" = "1.0.0"  # Hi AI
+        "pdkmmfdfggfpibdjbbghggcllhhainjo" = "1.1.6"  # Web3Password-A Decentralized Password Manager
     }
 
     # Remove the extensions if the version matches
